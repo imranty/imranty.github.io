@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: auto;
+}
+
+#top {
+	background: red;
+	width: 100%;
+	height: 200px;
+}
+
+#left {
+	background: yellow;
+	width: 25%;
+	height: 800px;
+	display: inline-block;
+}
+
+#centre {
+	background: green;
+	width: 50%;
+	height: 800px;
+	display: inline-block;
+}
+
+#right {
+	background: yellow;
+	width: 25%;
+	height: 800px;
+	display: inline-block;
+}
+
+#bottom {
+	background: blue;
+	width: 100%;
+	height: 200px;
+}
