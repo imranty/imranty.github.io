@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: auto;
+}
+
+#top {
+	background: red;
+	width: 100%;
+	height: 200px;
+	float: left;
+}
+
+#left {
+	background: yellow;
+	width: 25%;
+	height: 800px;
+	display: inline-block;
+	float: left;
+}
+
+#centre {
+	background: green;
+	width: 50%;
+	height: 800px;
+	display: inline-block;
+	float: left;
+}
+
+#right {
+	background: yellow;
+	width: 25%;
+	height: 800px;
+	display: inline-block;
+	float: left;
+}
+
+#bottom {
+	background: blue;
+	width: 100%;
+	height: 200px;
+	float: left;
+}
