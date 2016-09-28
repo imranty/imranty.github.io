@@ -1,1 +1,113 @@
+* {
+	margin: 0;
+}
 
+body {
+	height: auto;
+	width: 996px;
+	margin: auto;
+}
+
+.header {
+	border: 2px solid black;
+	height: 196px;
+	width: 100%;
+}
+
+.header img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+}
+
+.header ul {
+	position: relative;
+	display: inline-block;
+	height: 196px;
+	
+	top: 0;
+	left: 450px;
+	padding: 0px;
+}
+
+.header ul li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+}
+
+.header a img {
+	width: 50px;
+	height: 50px;
+}
+
+.divider_topbottom {
+	display: block;
+	height: 10px;
+}
+
+.left {
+	display: inline-block;
+	height: 390px;
+	width: 20%;
+	border: 1px dashed black;
+	padding: 10px;
+	float: left;
+	margin-left: 10px;
+}
+
+.left ul li {
+	list-style: none;
+}
+
+.left ul li a {
+	text-decoration: none;
+}
+
+.right {
+	display: inline-block;
+	height: 390px;
+	width: 70%;
+	border: 1px dashed black;
+	padding: 10px;
+}
+
+.divider_leftright {
+	display: inline-block;
+	width: 20px;
+	
+}
+
+.bottom .box {
+	display: inline-block;
+	height: 190px;
+	width: 20%;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.bottom .box .topright img {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	top: -10px;
+	left: 190px;
+}
+
+.bottom .box .bottomleft img {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	top: 155px;
+	left: -10px;
+}
+
+.footer {
+	height: 24px;
+	width: auto;
+	border: 2px solid black;
+	text-align: center;
+	padding: 10px 0px 0px 0px;
+}
