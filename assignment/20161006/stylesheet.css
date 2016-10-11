@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+}
+
+body {
+	height: auto;
+	width: 1000px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.header {
+	border: 2px solid black;
+	height: 200px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+
+.header img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+}
+
+.header ul {
+	position: relative;
+	display: inline-block;
+	height: 196px;
+	
+	top: 0;
+	left: 450px;
+	padding: 0px;
+}
+
+.header ul li {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.header a {
+
+}
+
+.header a img {
+	width: 50px;
+	height: 50px;
+}
+
+.left {
+	display: inline-block;
+	height: 400px;
+	width: 25%;
+	border: 1px dashed black;
+	padding: 10px;
+	box-sizing: border-box;
+	vertical-align: top;
+	margin: 10px 0px;
+}
+
+.left ul li {
+	list-style: none;
+}
+
+.left ul li a {
+	text-decoration: none;
+}
+
+.right {
+	display: inline-block;
+	height: 400px;
+	width: 74%;
+	border: 1px dashed black;
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 10px 0px 10px 6px;
+}
+
+.right h1 {
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+.right h3 {
+	font-family: 'Dancing Script', cursive;
+}
+
+.right p {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: justify;
+}
+
+.bottom {
+	background-color: #edf1f0;
+}
+
+.bottom .box {
+	background-color: #FFFFFF;
+	display: inline-block;
+	height: 200px;
+	width: 20%;
+	margin: 10px 23px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.bottom .box .topright img {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	top: -10px;
+	left: 190px;
+}
+
+.bottom .box .bottomleft img {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	top: 163px;
+	left: -10px;
+}
+
+.form1 {
+	background-color: #edf1f0;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 300px;
+	width: 49.6%;
+	vertical-align: top;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.form1 .info1 label {
+	display: inline-block;
+	width: 135px;
+	vertical-align: top;
+}
+
+.form2 {
+	background-color: #edf1f0;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 300px;
+	width: 50%;
+	vertical-align: top;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.form2 .info2 label {
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+}
+
+.footer {
+	height: 30px;
+	width: auto;
+	border: 2px solid black;
+	margin: 10px 0px;
+}
+
+.footer h6 {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 30px;
+}
