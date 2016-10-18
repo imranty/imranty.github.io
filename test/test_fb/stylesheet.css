@@ -1,0 +1,83 @@
+* {
+	font-family: Helvetica;
+	margin: 0;
+}
+
+body {
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	padding: 10px;
+	border: 1px black solid;
+	box-sizing: border-box;
+}
+
+form {
+	width: 400px;
+	height: auto;
+	margin: auto;
+}
+
+h1 {
+	height: 40px;
+}
+
+h3 {
+	height: 40px;
+}
+
+h4 {
+	height: 20px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+#details {
+	width: 350px;
+}
+
+#firstname {
+	box-sizing: border-box;
+	width: 170px;
+	margin-right: 3px;
+}
+
+#lastname {
+	box-sizing: border-box;
+	width: 170px;
+	margin-left: 2.5px;
+}
+
+#emailmobile {
+	box-sizing: border-box;
+	width: 350px;
+}
+
+#re_emailmobile {
+	box-sizing: border-box;
+	width: 350px;
+}
+
+#password {
+	box-sizing: border-box;
+	width: 350px;
+}
+
+#birthday {
+	display: inline-block;
+	font-size: 10px;
+	width: 170px;
+	vertical-align: bottom;
+}
+
+#signup {
+	margin-bottom: 10px;
+	width: 310px;
+	font-size: 10px;
+}
+
+.gender {
+	font-size: 10px;
+}
