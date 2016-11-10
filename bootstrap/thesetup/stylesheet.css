@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+#home {
+	background: url(../images/homebg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+}
+
+#home .container {
+	padding: 180px 0px;
+	width: 800px;
+	margin: auto;
+}
+
+#home hr {
+	width: 20%;
+	margin: auto;
+}
+
+#home h1 {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 100;
+	margin: 20px 0;
+}
+
+#home h3 {
+	color: #fff;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+
+#home i {
+	color: #fff;
+	font-size: 30px;
+}
+
+#about {
+	background: url(../images/aboutbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 440px;
+}
+
+#about .container {
+	padding: 150px 0;
+	width: 800px;
+	margin: auto;
+}
+
+#about hr {
+	width: 15%;
+	margin: auto;
+}
+
+#about h3 {
+	color: #fff;
+	font-weight: 100;
+}
+
+#about h4 {
+	color: #fff;
+	font-weight: 100;
+}
+
+#services h3 {
+	color: #873FB5;
+	font-size: 24px;
+	margin: 30px;
+	padding: 20px;
+}
+
+#services .service-header {
+	
+}
+
+#services i {
+	font-size: 50px;
+	border-right: 1px solid #873FB5;
+	padding-right: 20px;
+	float: left;
+	color: #c1c1c1;
+}
+
+#services .service-title {
+	display: inline-block;
+	padding-left: 20px;
+	margin-top: -20px;
+}
+
+#services h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+#services h4 {
+	color: #873FB5;
+	margin-top: -5px;
+}
+
+#services p {
+	margin-top: 5px;
+}
+
+#services .colservice {
+	margin-bottom: 35px;
+}
+
+#skills {
+	background-image: url(../images/skillsbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 467px;
+}
+
+#skills .colskills1 {
+	padding: 120px 0;
+}
+
+#skills h2 {
+	color: #fff;
+	font-weight: 900;
+}
+
+#skills h4 {
+	color: #fff;
+}
+
+#skills p {
+	color: #fff;
+	padding: 20px 0;
+	font-weight: 100;
+}
+
+#skills .button1 {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+#skills .button1:hover {
+	border-bottom: 3px solid #873FB5;
+	color: #873FB5;
+}
+
+#skills .button2 {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 15px;
+	padding-bottom: 5px;
+}
+
+#skills .button2:hover {
+	border-bottom: 3px solid #873FB5;
+	color: #873FB5;
+}
+
+#skills .colskills2 {
+	padding: 70px 40px;
+}
+
+#skills .progress {
+	height: 30px;
+}
+
+#skills .progress-bar {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7d4296+0,8d4563+100 */
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1e5799 0%, #7d4296 0%, #8d4563 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #1e5799 0%,#7d4296 0%,#8d4563 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #1e5799 0%,#7d4296 0%,#8d4563 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#8d4563',GradientType=1 ); /* IE6-9 */
+}
