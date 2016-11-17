@@ -183,3 +183,22 @@ body {
 	background: linear-gradient(to right,  #1e5799 0%,#7d4296 0%,#8d4563 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#8d4563',GradientType=1 ); /* IE6-9 */
 }
+
+#contact {
+	padding: 100px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+#contact .form-group {
+
+}
+
+#contact .form-control {
+
+}
+
+#contact .form-control:focus {
+	background: #fff;
+	color: #873FB5;
+}
